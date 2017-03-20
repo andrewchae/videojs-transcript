@@ -2,6 +2,8 @@
  *  Tracklist Helper
  */
 
+var my = require('./options');
+
 /*global my*/
 var trackList = function (plugin) {
   var activeTrack;
@@ -32,3 +34,5 @@ var trackList = function (plugin) {
     },
   };
 }(my);
+
+module.exports = trackList;

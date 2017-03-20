@@ -2,6 +2,11 @@
  *  Create and Manipulate DOM Widgets
  */
 
+var eventEmitter = require('./events');
+var my = require('./options');
+var scrollable = require('./scroller');
+var utils = require('./utils');
+
 /*globals utils, eventEmitter, my, scrollable*/
 
 var widget = function (plugin) {
@@ -144,3 +149,5 @@ var widget = function (plugin) {
   };
 
 }(my);
+
+module.exports = widget;

@@ -17,3 +17,5 @@ var defaults = {
   followPlayerTrack: true,
   stopScrollWhenInUse: true,
 };
+
+module.exports = my;

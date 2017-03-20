@@ -1,3 +1,7 @@
+var my = require('./options');
+var trackList = require('./tracklist');
+var widget = require('./widget');
+
 /*global window, videojs, my, defaults, trackList, widget*/
 var transcript = function (options) {
   my.player = this;
@@ -30,3 +34,5 @@ var transcript = function (options) {
   };
 };
 videojs.plugin('transcript', transcript);
+
+module.exports = transcript;

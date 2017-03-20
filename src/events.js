@@ -20,3 +20,5 @@ var eventEmitter = {
     });
   }
 };
+
+module.exports = eventEmitter;

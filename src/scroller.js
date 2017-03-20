@@ -134,3 +134,4 @@ var scroller = function(element) {
   return Object.create(scrollerProto).init(element);
 };
 
+module.exports = scroller;

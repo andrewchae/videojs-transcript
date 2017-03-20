@@ -2,6 +2,8 @@
  *  Utils
  */
 
+var my = require('./options');
+
 /*global my*/
 var utils = (function (plugin) {
   return {
@@ -41,3 +43,5 @@ var utils = (function (plugin) {
     }
   };
 }(my));
+
+module.exports = utils;

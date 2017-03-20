@@ -1,6 +1,7 @@
 {
-  "name": "videojs-transcript",
+  "name": "videojs-transcript-ac",
   "version": "0.8.0",
+  "main": "./src/main.js",
   "author": "Matthew Walsh",
   "description": "Creates interactive transcripts from text tracks.",
   "license": "MIT",
